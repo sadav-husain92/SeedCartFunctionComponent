@@ -1,4 +1,7 @@
-import React, {Component, useEffect, useState} from 'react';
+/**
+ SPLASH SCREEN
+ */
+import React, { useEffect } from 'react';
 import {View, Image, StatusBar} from 'react-native';
 import * as IMG_CONST from './assets';
 import * as Animatable from 'react-native-animatable';
@@ -9,16 +12,8 @@ interface Props {
   id: string;
 }
 
-interface S {
-  country: any;
-  countryData: any;
-}
+const Splash = (props: Props) => {
 
-interface SS {
-  id: any;
-}
-
-const Splash = (props: Props & S & SS) => {
   useEffect(() => {
     props.navigation.navigate('LoginScreen')
   }, []);
@@ -26,7 +21,7 @@ const Splash = (props: Props & S & SS) => {
   return (
     <View style={styles.container}>
       <StatusBar hidden />
-      <Animatable.View useNativeDriver animation="zoomIn" duraton="1500">
+      <Animatable.View useNativeDriver animation="zoomIn">
         <Image
           style={styles.appLogo}
           source={IMG_CONST.APP_LOGO}

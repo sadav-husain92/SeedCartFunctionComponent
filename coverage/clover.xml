@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1652666297223" clover="3.2.0">
+  <project timestamp="1652666297223" name="All files">
+    <metrics statements="46" coveredstatements="35" conditionals="5" coveredconditionals="1" methods="13" coveredmethods="8" elements="64" coveredelements="44" complexity="0" loc="46" ncloc="46" packages="9" files="13" classes="13"/>
+    <package name="SeedCartFunctionComponent">
+      <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <file name="App.tsx" path="/Users/apple/Documents/Projects/SeedCart/SeedCartFunctionComponent/App.tsx">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="12" count="1" type="stmt"/>
+        <line num="13" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="SeedCartFunctionComponent.src.features.Auth.LoginScreen">
+      <metrics statements="12" coveredstatements="10" conditionals="0" coveredconditionals="0" methods="4" coveredmethods="2"/>
+      <file name="Login.tsx" path="/Users/apple/Documents/Projects/SeedCart/SeedCartFunctionComponent/src/features/Auth/LoginScreen/Login.tsx">
+        <metrics statements="8" coveredstatements="7" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="2"/>
+        <line num="12" count="1" type="stmt"/>
+        <line num="13" count="1" type="stmt"/>
+        <line num="14" count="1" type="stmt"/>
+        <line num="16" count="1" type="stmt"/>
+        <line num="17" count="1" type="stmt"/>
+        <line num="18" count="1" type="stmt"/>
+        <line num="20" count="1" type="stmt"/>
+        <line num="23" count="0" type="stmt"/>
+      </file>
+      <file name="loginSlice.ts" path="/Users/apple/Documents/Projects/SeedCart/SeedCartFunctionComponent/src/features/Auth/LoginScreen/loginSlice.ts">
+        <metrics statements="4" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="10" count="1" type="stmt"/>
+        <line num="14" count="1" type="stmt"/>
+        <line num="19" count="0" type="stmt"/>
+        <line num="25" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="SeedCartFunctionComponent.src.features.RootStackNavigator">
+      <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <file name="RootStackNavigator.tsx" path="/Users/apple/Documents/Projects/SeedCart/SeedCartFunctionComponent/src/features/RootStackNavigator/RootStackNavigator.tsx">
+        <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="10" count="1" type="stmt"/>
+        <line num="12" count="1" type="stmt"/>
+        <line num="13" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="SeedCartFunctionComponent.src.features.SplashScreen">
+      <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+      <file name="Splash.tsx" path="/Users/apple/Documents/Projects/SeedCart/SeedCartFunctionComponent/src/features/SplashScreen/Splash.tsx">
+        <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+        <line num="15" count="1" type="stmt"/>
+        <line num="17" count="1" type="stmt"/>
+        <line num="18" count="1" type="stmt"/>
+        <line num="21" count="1" type="stmt"/>
+      </file>
+      <file name="SplashStyle.ts" path="/Users/apple/Documents/Projects/SeedCart/SeedCartFunctionComponent/src/features/SplashScreen/SplashStyle.ts">
+        <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      </file>
+      <file name="assets.ts" path="/Users/apple/Documents/Projects/SeedCart/SeedCartFunctionComponent/src/features/SplashScreen/assets.ts">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="SeedCartFunctionComponent.src.features.SplashScreen.assets">
+      <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      <file name="appLogo.png" path="/Users/apple/Documents/Projects/SeedCart/SeedCartFunctionComponent/src/features/SplashScreen/assets/appLogo.png">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="SeedCartFunctionComponent.src.redux.sagas">
+      <metrics statements="12" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="1"/>
+      <file name="index.ts" path="/Users/apple/Documents/Projects/SeedCart/SeedCartFunctionComponent/src/redux/sagas/index.ts">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="8" count="1" type="stmt"/>
+        <line num="9" count="1" type="stmt"/>
+      </file>
+      <file name="loginSaga.ts" path="/Users/apple/Documents/Projects/SeedCart/SeedCartFunctionComponent/src/redux/sagas/loginSaga.ts">
+        <metrics statements="10" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="0"/>
+        <line num="7" count="1" type="stmt"/>
+        <line num="8" count="0" type="stmt"/>
+        <line num="9" count="0" type="stmt"/>
+        <line num="10" count="0" type="stmt"/>
+        <line num="11" count="0" type="stmt"/>
+        <line num="12" count="0" type="stmt"/>
+        <line num="16" count="0" type="stmt"/>
+        <line num="17" count="0" type="stmt"/>
+        <line num="18" count="0" type="stmt"/>
+        <line num="20" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="SeedCartFunctionComponent.src.redux.store">
+      <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      <file name="store.ts" path="/Users/apple/Documents/Projects/SeedCart/SeedCartFunctionComponent/src/redux/store/store.ts">
+        <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="7" count="1" type="stmt"/>
+        <line num="10" count="1" type="stmt"/>
+        <line num="16" count="1" type="stmt"/>
+        <line num="18" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="SeedCartFunctionComponent.src.theme">
+      <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      <file name="ColorConstants.ts" path="/Users/apple/Documents/Projects/SeedCart/SeedCartFunctionComponent/src/theme/ColorConstants.ts">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="11" count="1" type="stmt"/>
+        <line num="32" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="SeedCartFunctionComponent.src.utils">
+      <metrics statements="5" coveredstatements="5" conditionals="5" coveredconditionals="1" methods="2" coveredmethods="1"/>
+      <file name="Scale.ts" path="/Users/apple/Documents/Projects/SeedCart/SeedCartFunctionComponent/src/utils/Scale.ts">
+        <metrics statements="5" coveredstatements="5" conditionals="5" coveredconditionals="1" methods="2" coveredmethods="1"/>
+        <line num="7" count="1" type="cond" truecount="1" falsecount="3"/>
+        <line num="8" count="1" type="stmt"/>
+        <line num="10" count="1" type="stmt"/>
+        <line num="17" count="2" type="stmt"/>
+        <line num="21" count="1" type="stmt"/>
+      </file>
+    </package>
+  </project>
+</coverage>

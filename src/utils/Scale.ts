@@ -1,3 +1,6 @@
+/**
+ SCALE CALCULATION
+ */
 import { Dimensions, Platform } from 'react-native';
 
 //Screen Constatnts
@@ -5,7 +8,6 @@ const SCREEN_HEIGHT = Platform.OS === 'ios' ?  Dimensions.get('window').height :
 const SCREEN_WIDTH = 375;
 
 const { height, width } = Dimensions.get('window');
-console.log('@@@ height ===============', height);
 
 /**
  * Function to scale a value based on the size of the screen size and the original

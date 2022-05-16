@@ -1,5 +1,8 @@
+/**
+ LOGIN SAGA
+ */
 import { call, put } from 'redux-saga/effects';
-import { updateName } from '../../features/Auth/LoginScreen/loginSlice'
+import { updateName } from '../../features/Auth/LoginScreen/loginSlice';
 
 const getUserName = async () => {
     console.log("@@@ fetch User saga in api call ")
@@ -10,10 +13,8 @@ const getUserName = async () => {
 }
 
 export function* fetchUserName() {
-    console.log("@@@ fetch User saga ")
    try {
-    const userName = yield getUserName();
-    console.log("@@@ fetch User saga in try ")
+    const userName: void = yield getUserName();
     yield put(updateName(userName));
    } catch (e) {
     console.log("@@@ error =====>", e)
